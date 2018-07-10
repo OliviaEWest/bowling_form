@@ -12,3 +12,5 @@ The form has three pages/steps.
 Only the bowling form needs to be styled as the remainder of the page elements have already been styled as desired.
 
 You will the bowling form markup will begin and end with HTML comments `<!-- that look like this -->`. 
+
+All CSS should go into the `bowl.css` stylesheet.

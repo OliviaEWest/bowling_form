@@ -19,17 +19,17 @@ jQuery(function(){
 			jQuery('input[name="selected_date"]').on('change', function(){
 				var date = jQuery(this).val();
 				self.setReservedTimes(date);
-				jQuery('fieldset[name="step2"]').removeClass('hidden').attr('disabled',false);
+				jQuery('fieldset[name="step2"]').removeClass('inactive').attr('disabled',false);
 			});
 			
 			jQuery('input[type="radio"][name="starttime"]').on('change',function(){
 				var time = jQuery(this).val();
 				self.setLaneAvailability(time);
-				jQuery('fieldset[name="step3"]').removeClass('hidden').attr('disabled',false);
+				jQuery('fieldset[name="step3"]').removeClass('inactive').attr('disabled',false);
 			});
 			
 			jQuery('input[name="lane"]').on('change', function(){
-				jQuery('fieldset[name="step4"]').removeClass('hidden').attr('disabled',false);
+				jQuery('fieldset[name="step4"]').removeClass('inactive').attr('disabled',false);
 			});
 			
 			jQuery('button[type="submit"]').on('click', function(e){

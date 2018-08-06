@@ -7,7 +7,7 @@ The form follow the wireframe/mock-up presented by CBK, and consists of 4 "steps
 2. Date picker element to select the day for which the user would like to reserve a bowling lane.
 3. A table containing a list of available times for the two bowling lanes.
   * If the time has been reserved for both lanes, the input element will receive a "disabled" attribute.
-3. Javascript updates the form as the user steps through, showing each new step.
+4. Javascript updates the form as the user steps through, showing each new step.
   * Each "step" has a separate fieldset with an attribute of "disabled" and a class of "inactive". 
   * If you would like to "grey out" an inactive step, simply update the CSS file for selector (.inactive).
 5. A success message appears upon completion.

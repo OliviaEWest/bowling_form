@@ -1,5 +1,6 @@
 /**
  * Bowling reserveration javascript
+ * TODO: Remove jQuery and use vanilla JS (partially done)
  */
 
 jQuery(function(){
